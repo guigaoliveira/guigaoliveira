@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <main className="container">
-        <h1 className="title">Hello, I'm Guilherme Oliveira</h1>
+        <h1 className="title">Hi, I'm Guilherme Oliveira</h1>
         <h4 className="phrase">
           I like to create amazing things for other people
         </h4>
