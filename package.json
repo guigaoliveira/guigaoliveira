@@ -1,11 +1,10 @@
 {
-  "name": "react-ts",
+  "name": "guigaoliveira.github.io",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "src/index.tsx",
   "dependencies": {
-    "@types/react-icons": "3.0.0",
     "react": "16.8.4",
     "react-dom": "16.8.4",
     "react-icons": "3.8.0",
@@ -14,18 +13,22 @@
   "devDependencies": {
     "@types/react": "16.8.8",
     "@types/react-dom": "16.8.2",
-    "typescript": "3.3.3"
+    "typescript": "3.3.3",
+    "gh-pages": "2.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
   },
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "homepage": "http://guigaolivera.github.io"
 }
