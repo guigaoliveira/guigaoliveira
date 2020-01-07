@@ -7,7 +7,7 @@ import {
   FaMedium,
   FaSlideshare,
   FaTelegramPlane,
-  FaTwitter
+  FaNpm
 } from "react-icons/fa";
 import "./styles.css";
 
@@ -46,6 +46,7 @@ function App() {
               href="https://pt.slideshare.net/GuilhermeOliveira540"
               Icon={FaSlideshare}
             />
+            <Link href="https://www.npmjs.com/~guigaoliveira" Icon={FaNpm} />
             <Link
               href="https://telegram.me/guigaoliveira"
               Icon={FaTelegramPlane}
